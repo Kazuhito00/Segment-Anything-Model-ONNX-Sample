@@ -10,8 +10,10 @@ https://github.com/Kazuhito00/Segment-Anything-Model-ONNX-Sample/assets/37477845
 Colaboratoryでノートブックを開き、上から順に実行してください。<br>
 
 #### 簡易デモ
-Colaboratoryノートブックで変換したONNXファイルを「onnx_model」ディレクトリに格納し、
+Colaboratoryノートブックで変換したONNXファイルを「onnx_model」ディレクトリに格納し、<br>
 以下コマンドでデモを起動してください。<br>
+左クリックでプロンプト座標を追加、右クリックでプロンプト座標を削除します。<br>
+また、キーボード1～3で、クリック時に追加する座標のタイプを変更します（1：対象座標、2：非対象座標、3：対象バウンディングボックス）
 ```
 python demo.py
 ```
